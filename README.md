@@ -6,7 +6,7 @@ An application that allows users to deform meshes in a smooth and realistic way 
 You can either use existing (hand made) cage meshes, or the program can generate a coarse cage automatically.
 
 Implementetation of two papers:
--Automatic coarse cage generation : 
+- Automatic coarse cage generation : 
 Xian et al. Automatic Generation of Coarse Bounding Cages from Dense Meshes ([paper](
 http://www.cad.zju.edu.cn/home/hwlin/pdf_files/Automatic-generation-of-coarse-bounding-cages-from-dense-meshes.pdf))
 - Mean value coordinates (for vertex-cage interpolation) : 
@@ -16,7 +16,7 @@ Ju et al. Mean Value Coordinates for Closed Triangular Meshes ([paper](https://w
 ## Usage
 ### Dependencies
 You need the [LibIGL](https://github.com/libigl/libigl) library.
-Put the libigl folder two levels above this repository.
+Put the libigl source code folder two levels above this repository.
 
 ### Building and running the code
 Build using CMake and the CMakeLists.txt provided.
